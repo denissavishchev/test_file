@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Ruined King",
+    "image": "i01",
+    "name2": "i01a",
+    "rating": "9.2",
+    "reviews": "3.4",
+    "stars": "5",
+    "description": "Ruined King: A League of Legends Story is a 2021 turn-based role-playing video game developed by Airship Syndicate and published by Riot Forge. A spin-off to Riot Games' League of Legends, Ruined King uses characters and a setting originating in its parent title."
+  },
+  {
+    "name": "Hallo",
+    "image": "i02",
+    "name2": "i02a",
+    "rating": "9.4",
+    "reviews": "3.8",
+    "stars": "4",
+    "description": "Halo is a military science fiction media franchise, originally developed by Bungie and currently managed and developed by 343 Industries, part of Microsoft's Xbox Game Studios. The series launched in 2001 with the first-person shooter video game Halo: Combat Evolved and its tie-in novel, The Fall of Reach."
+  },
+  {
+    "name": "Prince of Persia",
+    "image": "i03",
+    "name2": "i03a",
+    "rating": "9.8",
+    "reviews": "4.4",
+    "stars": "5",
+    "description": "Prince of Persia is a video game franchise created by Jordan Mechner. It is built around a series of action-adventure games focused on various incarnations of the eponymous Prince, set in ancient and medieval Persia."
+  },
+  {
+    "name": "God of War",
+    "image": "i04",
+    "name2": "i04a",
+    "rating": "9.9",
+    "reviews": "7.4",
+    "stars": "5",
+    "description": "God of War is an action-adventure game franchise created by David Jaffe at Sony's Santa Monica Studio. It began in 2005 on the PlayStation 2 video game console and has become a flagship series for PlayStation, consisting of nine installments across multiple platforms."
+  },
+  {
+    "name": "BloodRayne",
+    "image": "i05",
+    "name2": "i05a",
+    "rating": "9.3",
+    "reviews": "3.1",
+    "stars": "4",
+    "description": "BloodRayne is a media franchise that originated with an action-adventure video game series originally developed by Terminal Reality and published by Majesco Entertainment which began with the game of the same name in 2002."
+  },
+  {
+    "name": "Half Life",
+    "image": "i06",
+    "name2": "i06a",
+    "rating": "9.7",
+    "reviews": "3.9",
+    "stars": "5",
+    "description": "Half-Life is a series of first-person shooter games developed and published by Valve. The games combine shooting combat, puzzles and storytelling. The original Half-Life, Valve's first product, was released in 1998 for Windows to critical and commercial success."
+  }
+]

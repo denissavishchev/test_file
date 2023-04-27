@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Julie",
+    "avatar": "a01",
+    "poster": "p01",
+    "connected": "true",
+    "playing": "Calming Lia",
+    "friends": "true"
+  },
+  {
+    "name": "Devis",
+    "avatar": "a02",
+    "poster": "p02",
+    "connected": "true",
+    "playing": "Japan Ninja",
+    "friends": "true"
+  },
+  {
+    "name": "Vasilisa",
+    "avatar": "a03",
+    "poster": "p03",
+    "connected": "true",
+    "playing": "Moon Sword",
+    "friends": "true"
+  },
+  {
+    "name": "Daniel",
+    "avatar": "a04",
+    "poster": "p04",
+    "connected": "true",
+    "playing": "WarHammer",
+    "friends": "true"
+  },
+  {
+    "name": "BigBoss",
+    "avatar": "a05",
+    "poster": "p05",
+    "connected": "false",
+    "playing": "Ancient King",
+    "friends": "true"
+  },
+  {
+    "name": "Flying_Apple",
+    "avatar": "a06",
+    "poster": "p06",
+    "connected": "true",
+    "playing": "Assasins Creed",
+    "friends": "false"
+  },
+  {
+    "name": "_Matroskin_",
+    "avatar": "a07",
+    "poster": "p07",
+    "connected": "false",
+    "playing": "Batman",
+    "friends": "true"
+  },
+  {
+    "name": "Bruce_Wayne",
+    "avatar": "a08",
+    "poster": "p08",
+    "connected": "false",
+    "playing": "Elder Ring",
+    "friends": "false"
+  },
+  {
+    "name": "White Princess",
+    "avatar": "a09",
+    "poster": "p09",
+    "connected": "true",
+    "playing": "Fallout",
+    "friends": "false"
+  },
+  {
+    "name": "Acid_Burn",
+    "avatar": "a10",
+    "poster": "p10",
+    "connected": "true",
+    "playing": "Far Cry 6",
+    "friends": "true"
+  },
+  {
+    "name": "Nagibator3000",
+    "avatar": "a11",
+    "poster": "p11",
+    "connected": "false",
+    "playing": "Dine and Dash",
+    "friends": "true"
+  },
+  {
+    "name": "__Sub__Zero__",
+    "avatar": "a12",
+    "poster": "p12",
+    "connected": "true",
+    "playing": "Halo",
+    "friends": "false"
+  },
+  {
+    "name": "*Beast*",
+    "avatar": "a13",
+    "poster": "p13",
+    "connected": "false",
+    "playing": "MainCraft",
+    "friends": "true"
+  },
+  {
+    "name": "Creeper",
+    "avatar": "a14",
+    "poster": "p14",
+    "connected": "true",
+    "playing": "Mortal Combat",
+    "friends": "true"
+  },
+  {
+    "name": "Gordon",
+    "avatar": "a15",
+    "poster": "p15",
+    "connected": "false",
+    "playing": "God of War",
+    "friends": "true"
+  },
+  {
+    "name": "Kaleena",
+    "avatar": "a16",
+    "poster": "p16",
+    "connected": "true",
+    "playing": "Zelda",
+    "friends": "false"
+  }
+]
