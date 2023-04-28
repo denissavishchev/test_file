@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_file/provider_OOP/begin_page.dart';
+import 'package:test_file/provider_json/main_page.dart';
+import 'package:test_file/provider_json/pokemon_page.dart';
 import 'package:test_file/start_page.dart';
 import 'package:test_file/state_management/state_management.dart';
 import 'package:test_file/widgets_lesons_two.dart';
@@ -31,7 +33,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        home: BeginPage());
+        home: MainPage());
   }
 }
 
