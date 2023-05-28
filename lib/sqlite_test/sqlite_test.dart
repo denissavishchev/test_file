@@ -33,10 +33,11 @@ class _SqliteTestState extends State < SqliteTest > {
                 builder: (ctx, snapshot) {
                   if (snapshot.connectionState == ConnectionState.done) {
                     if (snapshot.hasData) {
-                      _userNameController.text = snapshot.data![0].userName!;
-                      _emailController.text = snapshot.data![0].email!;
-                      _passwordController.text = snapshot.data![0].password!;
-                      _currentUser = snapshot.data![0];
+                      print(snapshot);
+                      // _userNameController.text = snapshot.data![1].userName!;
+                      // _emailController.text = snapshot.data![0].email!;
+                      // _passwordController.text = snapshot.data![0].password!;
+                      // _currentUser = snapshot.data![0];
                     }
                     return Column(
                       children: [

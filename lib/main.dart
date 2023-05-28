@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 // import 'package:test_file/provider_OOP/begin_page.dart';
 import 'package:test_file/provider_json/main_page.dart';
+import 'package:test_file/screens/first_screen.dart';
+import 'package:test_file/screens/second_screen.dart';
+import 'package:test_file/screens/third_screen.dart';
+import 'package:test_file/shared_preferences/shared_preferences.dart';
 import 'package:test_file/sqlite_test/sqlite_test.dart';
 // import 'package:test_file/provider_json/pokemon_page.dart';
 // import 'package:test_file/start_page.dart';
@@ -14,8 +18,10 @@ import 'package:test_file/sqlite_test/sqlite_test.dart';
 // import 'dna.dart';
 // import 'glass_morph.dart';
 // import 'media_query.dart';
+import 'dart:async';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
       home: MyApp()));
@@ -33,7 +39,14 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        home: SqliteTest());
+        initialRoute: '/first',
+        routes: {
+        '/first': (context) => const FirstScreen(),
+        '/second': (context) => const SecondScreen(),
+        '/third': (context) => const ThirdScreen(screenTitle: '',),
+        },
+        // home: FirstScreen()
+    );
   }
 }
 
