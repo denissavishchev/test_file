@@ -39,13 +39,13 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        initialRoute: '/first',
-        routes: {
-        '/first': (context) => const FirstScreen(),
-        '/second': (context) => const SecondScreen(),
-        '/third': (context) => const ThirdScreen(screenTitle: '',),
-        },
-        // home: FirstScreen()
+        // initialRoute: '/first',
+        // routes: {
+        // '/first': (context) => const FirstScreen(),
+        // '/second': (context) => const SecondScreen(),
+        // '/third': (context) => const ThirdScreen(screenTitle: '',),
+        // },
+        home: MainPage()
     );
   }
 }

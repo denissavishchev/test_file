@@ -7,40 +7,41 @@ class PokemonPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    context.read<NewData>().fetchData;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hello'),
+        title: const Center(child: Text('Magic')),
       ),
       body: RefreshIndicator(
         onRefresh: () async {},
         child: Center(
           child: Consumer<NewData>(
             builder: (context, value, child) {
-              return value.map.isEmpty && !value.error
-                  ? const CircularProgressIndicator()
-                  : value.error
-                      ? Text(
-                          'Something went wrong. ${value.errorMessage}',
-                          textAlign: TextAlign.center,
-                        )
-                      : ListView.builder(
-                          itemCount: value.map['results'].length,
-                          itemBuilder: (context, index) {
-                            return Card(
-                              elevation: 10,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text('${value.map['results'][index]['name']}'),
-                                    // Image.network('${value.map['results'][index]['url']}')
-                                  ],
-                                ),
-                              ),
-                            );
-                          });
+              return FutureBuilder<Data>(
+                future: context.read<NewData>().fetchData,
+                        builder: (context, snapshot) {
+                          if (snapshot.hasData) {
+                            var data = snapshot.data!.cards.map((e) => e.name).toList();
+                            return ListView.builder(
+                                itemCount: data.length,
+                                itemBuilder: (context, index) {
+                                  return Card(
+                                    elevation: 10,
+                                    child: Padding(
+                                      padding: const EdgeInsets.all(8.0),
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text(data[index]),
+                                        ],
+                                      ),
+                                    ),
+                                  );
+                                });
+                          }else if (snapshot.hasError) {
+                            return Text('error');
+                          }
+                          return const CircularProgressIndicator();
+                        });
             },
           ),
         ),
