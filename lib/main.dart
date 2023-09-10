@@ -20,6 +20,9 @@ import 'package:test_file/sqlite_test/sqlite_test.dart';
 // import 'media_query.dart';
 import 'dart:async';
 
+import 'form_validation.dart';
+import 'glass_morph.dart';
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MaterialApp(
@@ -45,7 +48,7 @@ class _MyAppState extends State<MyApp> {
         // '/second': (context) => const SecondScreen(),
         // '/third': (context) => const ThirdScreen(screenTitle: '',),
         // },
-        home: MainPage()
+        home: FormValidationPage()
     );
   }
 }
